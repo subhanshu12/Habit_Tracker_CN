@@ -43,23 +43,29 @@
 ## Folder Structure
 📦coder-habit-tracker
 ┣ 📂DEMO ----> Some screenshoots of project
+
 ┣ 📂assets
 ┃ ┗ 📂css
 ┃ ┃ ┣ 📜habit.jpg
 ┃ ┃ ┗ 📜styles.css
+
 ┣ 📂config
 ┃ ┗ 📜mongoose.js
+
 ┣ 📂controllers
 ┃ ┣ 📜dashboard_controller.js
 ┃ ┣ 📜home_controller.js
 ┃ ┣ 📜updateHabitStatus_controller.js
 ┃ ┗ 📜user_controller.js
+
 ┣ 📂models
 ┃ ┣ 📜Habit.js
 ┃ ┗ 📜User.js
+
 ┣ 📂routes
 ┃ ┣ 📜index.js
 ┃ ┗ 📜users.js
+
 ┣ 📂views
 ┃ ┣ 📂partials
 ┃ ┃ ┗ 📜messages.ejs
@@ -68,6 +74,7 @@
 ┃ ┣ 📜layout.ejs
 ┃ ┣ 📜login.ejs
 ┃ ┗ 📜register.ejs
+
 ┣ 📜.env
 ┣ 📜.gitignore
 ┣ 📜app.js
